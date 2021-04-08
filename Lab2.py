@@ -1,8 +1,7 @@
 from datetime import date
 today = date.today()
-print("Today is:", today)   #date
-
-
+print("Today is:", today)  
+#date
 lastname  = input("Input your last name: ")
 while len(lastname)<2 or len(lastname)>15:
     print("Last name should be more than\
